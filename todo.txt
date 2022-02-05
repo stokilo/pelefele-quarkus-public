@@ -1,0 +1,17 @@
+# pelefele.com
+Real estate application Java + Quarkus + AWS Fargate
+
+### Next, on top the highest  priority
+- [] Considering that deployment is sharing RDS/ALB/FARGATE - don't make it stage specific (naming, etc)
+- [] Shared infrastructure (VPC, RDS, Load balancer)
+- [] Fargate service for STAGE and PROD deployed as a single unit
+
+### Completed Column ✓
+- [x] Test native image for STAGE and PROD
+- [x] JIB container image is not starting on fargate, weird error, fix it, work only with quarkus remote enabled
+- [x] Fargate spot for both STAGE and PROD
+- [x] Initial Cognito integration
+- [x] Wrangler check
+- [x] Update API domains do
+- [x] Migrations and snapshots for Dynamo/ES
+
