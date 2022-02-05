@@ -25,7 +25,7 @@ public class AppConfigSource implements ConfigSource {
         try {
             log.info("Active profile [" + ProfileManager.getActiveProfile() + "]");
 
-            // remove check for 'test' profile and cache configuration?
+            // todo: remove check for 'test' profile and cache configuration?
             if (ProfileManager.getActiveProfile().equalsIgnoreCase("test")){
                 // todo: this is for testing only, leave it for now
                 configuration.put("quarkus.oidc.auth-server-url", "https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_V2aLxI8kN");
