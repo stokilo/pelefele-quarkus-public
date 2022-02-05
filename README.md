@@ -17,6 +17,9 @@ stage.pelefele.com (DEV) -> stage.alb.awss.ws
 pelefele.com (PROD) -> alb.awss.ws
 
 
+See LESSONS_LEARNED.MD for some technical notes.
+
+
 #### Preparation
 
 1. AWS Secret config
