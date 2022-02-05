@@ -43,7 +43,7 @@ My reasoning is below:
 
 #### Database - DynamoDb design
 
-My approach for DynamoDB storage was based on a single table design with storing complex objects a single map column.
+My approach for DynamoDB storage was based on a single table design with storing complex objects in a single map column.
 Such column stored serialized object as JSON. This is a bit different from what you see by default in tutorials, where
 each object field is a column. I didn't follow this because this is too cumbersome and hard to maintain. For a small
 project, I could not justify making it so complex. Serialized objects are too small to save any money on fetching them
