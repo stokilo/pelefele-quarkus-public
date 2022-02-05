@@ -1,6 +1,6 @@
 type="webpack"
-account_id="c597c88a0e327181e7342fd3e27a5b3f"
-zone_id="8da2c1d3d383d6c83b9f695d83ecf944"
+account_id="YOUR_ACCOUNT_NUMBER"
+zone_id="YOUR_ZONE_ID"
 route=""
 usage_model=""
 compatibility_flags=[]
