@@ -71,6 +71,9 @@ password: sample_strong_password_129fsanklfnasklfnaslk1csavx
 
 ```
 
+2. Extract file doc/layers.zip to root layers folder. This is npm package sharp that is deployed on lambda.
+
+
 #### Build
 
 Project scrips executes sso.sh script to acquire short living auth tokens. Comment out this if you are using
